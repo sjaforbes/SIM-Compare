@@ -1,5 +1,6 @@
-
-
+* { 
+  font-family: 'Montserrat', sans-serif;
+}
 
 #content { 
 text-align: center;
@@ -12,10 +13,6 @@ justify-content:center;
 width: 30%;
 }
 
-body { 
-background: url(https://source.unsplash.com/beZmZC-38Co)  no-repeat center center fixed;
-  background-size: cover;
-} 
 
 
  #countrysearch{ 
@@ -41,3 +38,43 @@ padding-right: 0.75rem;
  h3{ 
  font-size:2rem;
   }
+
+
+  #main-menu {
+    background-color:#7971ea; 
+    border-bottom: #000000 1px solid;
+    height: 3.5rem;
+    font-size: 1.05rem;
+  }
+/* FAQ STYLING */
+ 
+#title { 
+  border-bottom: 1px solid black;
+  width: 33% ;
+  margin-left: 1.66%;
+  margin-top: 1.66%;
+}
+
+#faqcontainer { 
+text-align: center
+  
+}
+
+  #faqul { 
+    list-style: none;
+  }
+
+
+  i.fas.fa-arrow-down { 
+    margin-left: 3rem;
+  }
+/* li { 
+  display: block;
+  margin: 1rem;
+} */
+.answerstyle { 
+  color: green;
+  display: none;
+}
+
+
